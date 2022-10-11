@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Бизнес-ланчи</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper other-page">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner header-inner">
+            <a class="header__logo header-logo" href="#">
+                <picture class="header-logo__img">
+                    <source media="(max-width:960px)" srcset="img/header-logo-mobile.png">
+                    <source media="(max-width:1090px)" srcset="img/header-logo-tablet.png">
+                    <img src="img/header-logo.png" alt="">
+                </picture>
+                <div class="header__round"></div>
+            </a>
+            <div class="header__icons-mobile header-icons">
+                <a class="header-icons__phone" href="#">
+                    <picture>
+                        <source srcset="img/phone-mobile.svg" type="image/webp">
+                        <img class="header-icons__phone-img" src="img/phone-mobile.svg" alt="">
+                    </picture>
+                </a>
+                <button class="header-icons__menu">
+                    <picture>
+                        <source srcset="img/menu-mobile.svg" type="image/webp">
+                        <img class="header-icons__menu-img" src="img/menu-mobile.svg" alt="">
+                    </picture>
+                </button>
+            </div>
+            <div class="header-inner__mobile-bg">
+
+            </div>
+            <div class="header-inner__nav-block nav-block">
+                <div class="nav-block__top">
+                    <div class="nav-block__mobile-close">
+                    </div>
+                    <ul class="nav-block__nav nav-menu">
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link" href="index.html">Програмы питания</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link" href="lunch.html">Бизнес-ланчи</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link" href="gastro-shop.html">Gastro Shop</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link" href="about.html">О нас</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link" href="blog.html">Блог</a>
+                        </li>
+                    </ul>
+                    <a href="tel:+380689494919" class="nav-block__phone">+38 (068) 949 - 49 -19</a>
+                </div>
+                <ul class="nav-block__lang-list">
+                    <li class="nav-block__lang-item current-lang">
+                        <a class="nav-block__lang-link" href="#">RU</a>
+                    </li>
+                    <li class="nav-block__lang-item">
+                        <a class="nav-block__lang-link" href="#">UA</a>
+                    </li>
+                    <li class="nav-block__lang-item">
+                        <a class="nav-block__lang-link" href="#">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="lunch">
+                <div class="container">
+                    <div class="lunch__inner">
+                        <h1 class="lunch__title">Бизнес-ланчи</h1>
+                        <div class="lunch__text-block">
+                            <p class="lunch__text">Представляем сладкую коллекцию полезных конфет. Созданы с любовью и
+                                изготовлены из натуральных продуктов без добавления сахара - с заботой о вас и ваших
+                                близких!</p>
+                            <p class="lunch__text">
+                                <span>Стоимость доставки 60 руб по предварительному заказу (за 1 сутки).</span>
+                                <span>Предварительный заказ предполагает доставку на следующий день с 6:00-10:00.</span>
+                                <span>Минимальный заказ - от 6 конфет. Вес 1 кофетки 25 г.</span>
+                            </p>
+                            <p class="lunch__text">Заказы "на завтра" принимаются до 11-00 текущего дня.</p>
+                            <p class="lunch__text">Конфеты доставляются в прозрачных пакетах со стикером. Вы можете
+                                заказать подарочный бокс с лентой стоимостью 20 руб</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lunch-table">
+                <div class="container">
+                    <div class="lunch-table__inner table-inner">
+                        <button class="lunch-table__apply btn-reverse table-apply">Оформить заказ</button>
+                        <div class="lunch-table__forms">
+                            <div class="lunch-table__form ordering-form lunch-form">
+                                <div class="ordering-form__inner lunch-form__inner">
+                                    <div class="ordering-form__close">
+                                        <picture>
+                                            <source srcset="img/close.svg" type="image/webp">
+                                            <img class="ordering-form__close-img" src="img/close.svg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="ordering-form__table">
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Рыбный”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="1" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Мясной”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="2" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Рыбный”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="3" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Мясной”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="4" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Рыбный”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="5" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="ordering-form__table-item ordering-item">
+                                            <span class="ordering-item__selected"></span>
+                                            <p class="ordering-item__name">Бизнес-ланч “Мясной”</p>
+                                            <div class="ordering-item__total">
+                                                <div class="ordering-item__amount-block">
+                                                    <span class="ordering-item__rm">-</span>
+                                                    <span class="ordering-item__amount" data-id="6" data-price="189"
+                                                        data-amount="0">0</span>
+                                                    <span class="ordering-item__add">+</span>
+                                                </div>
+                                                <p class="ordering-item__price-block">
+                                                    <span class="ordering-item__price" data-cost="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ordering-form__info">
+                                        <div class="ordering-form__btns">
+                                            <button
+                                                class="ordering-form__online-order btn-reverse online-order online-order--inactive lunch-details">Онлайн
+                                                заказ</button>
+                                            <button
+                                                class="ordering-form__phone-order phone-order phone-order--inactive">Заказ
+                                                по телефону</button>
+                                        </div>
+                                        <div class="ordering-form__total">
+                                            <div class="ordering-form__total-inner">
+                                                <p class="ordering-form__amount-block">
+                                                    <span class="ordering-form__amount" data-amount="0">0</span>шт
+                                                </p>
+                                                <span class="ordering-form__slash">/</span>
+                                                <p class="ordering-form__price-block">
+                                                    <span class="ordering-form__price" data-price="0">0</span>руб
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="lunch-table__online-form online-form">
+                                <div class="online-form__inner">
+                                    <div class="online-form__alert-wrapper">
+                                        <p class="online-form__alert">Заполните все поля правильно</p>
+                                        <span class="online-form__close"></span>
+                                    </div>
+                                    <div class="online-form__block">
+                                        <div class="online-form__column">
+                                            <div class="online-form__input-wrapper">
+                                                <input class="online-form__input _req" type="text" placeholder="Имя">
+                                            </div>
+                                            <div class="online-form__input-wrapper">
+                                                <input class="online-form__input _req _phone" type="tel"
+                                                    placeholder="Номер телефона">
+                                            </div>
+                                            <div class="online-form__row">
+                                                <label class="online-form__label street-label">
+                                                    <span class="online-form__input-name">Улица</span>
+                                                    <input class="online-form__row-input _req" type="text">
+                                                </label>
+                                                <label class="online-form__label building-label">
+                                                    <span class="online-form__input-name">Дом:</span>
+                                                    <input class="online-form__row-input _req _num" type="text"
+                                                        placeholder="199">
+                                                </label>
+                                                <label class="online-form__label floor-label">
+                                                    <span class="online-form__input-name">Этаж:</span>
+                                                    <input class="online-form__row-input _req _num" type="text"
+                                                        placeholder="99">
+                                                </label>
+                                            </div>
+                                            <div class="online-form__row">
+                                                <label class="online-form__label apart-label">
+                                                    <span class="online-form__input-name">Квартира:</span>
+                                                    <input class="online-form__row-input _req _num" type="text"
+                                                        placeholder="199">
+                                                </label>
+                                                <label class="online-form__label front-label">
+                                                    <span class="online-form__input-name">Парадная:</span>
+                                                    <input class="online-form__row-input _req _num" type="text"
+                                                        placeholder="199">
+                                                </label>
+                                                <label class="online-form__label intercom-label">
+                                                    <span class="online-form__input-name">Домофон:</span>
+                                                    <input class="online-form__row-input _req _num" type="text"
+                                                        placeholder="199">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="online-form__column">
+                                            <div class="online-form__checkbox dropdown online-form__input-wrapper">
+                                                <button class="dropdown__button" data-default="Время доставки">
+                                                    <span>Время доставки</span>
+                                                    <picture>
+                                                        <source srcset="img/arrow-right.svg" type="image/webp">
+                                                        <img src="img/arrow-right.svg" alt="">
+                                                    </picture>
+                                                </button>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__list-item" data-value="6:00-7:00">с 6:00 до 7:00</li>
+                                                    <li class="dropdown__list-item" data-value="7:00-8:00">с 7:00 до 8:00</li>
+                                                    <li class="dropdown__list-item" data-value="8:00-9:00">с 8:00 до 9:00</li>
+                                                    <li class="dropdown__list-item" data-value="9:00-10:00">с 9:00 до 10:00</li>
+                                                </ul>
+                                                <input class="dropdown__input-hidden _req" type="text" name="delivery-time" value="">
+                                            </div>
+                                            <div class="online-form__checkbox dropdown online-form__input-wrapper">
+                                                <button class="dropdown__button" data-default="Способ оплаты">
+                                                    <span>Способ оплаты</span>
+                                                    <picture>
+                                                        <source srcset="img/arrow-right.svg" type="image/webp">
+                                                        <img src="img/arrow-right.svg" alt="">
+                                                    </picture>
+                                                </button>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__list-item" data-value="cash">Наличными</li>
+                                                    <li class="dropdown__list-item" data-value="card">Картой</li>
+                                                </ul>
+                                                <input class="dropdown__input-hidden _req" type="text" name="pay-method" value="">
+                                            </div>
+                                            <div class="online-form__input-wrapper">
+                                                <input class="online-form__input" type="text"
+                                                    placeholder="Откуда узнали о нас">
+                                            </div>
+                                            <div class="online-form__checkbox dropdown online-form__input-wrapper">
+                                                <button class="dropdown__button" data-default="Как с Вами связаться?">
+                                                    <span>Как с Вами связаться?</span>
+                                                    <picture>
+                                                        <source srcset="img/arrow-right.svg" type="image/webp">
+                                                        <img src="img/arrow-right.svg" alt="">
+                                                    </picture>
+                                                </button>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__list-item" data-value="phone">По телефону</li>
+                                                    <li class="dropdown__list-item" data-value="e-mail">По электронной почте</li>
+                                                </ul>
+                                                <input class="dropdown__input-hidden _req" type="text" name="contact-way" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="online-form__terms">
+                                        <label class="online-form__terms-label">
+                                            <input class="online-form__terms-input _req _terms" type="checkbox">
+                                            <span class="online-form__terms-check"></span>
+                                            <span>Согласен с <a class="online-form__terms-link" href="index.html">условиями сотрудничества</a> </span>
+                                        </label>
+                                    </div>
+                                    <div class="online-form__total-block">
+                                        <div class="online-form__total-btns">
+                                            <div class="online-form__accept sweets-accept online-accept btn-reverse">
+                                                Заказать</div>
+                                            <div class="online-form__total">
+                                                <div class="online-form__total-inner">
+                                                    <p class="online-form__total__amount-block">
+                                                        <span class="online-form__amount" data-amount="0">0</span> шт
+                                                    </p>
+                                                    <span class="online-form__slash">/</span>
+                                                    <p class="online-form__total__price-block">
+                                                        <span class="online-form__price" data-price="0">0</span> руб
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="online-form__total-items">
+                                            <div class="online-form__total-items-inner">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="lunch-table__form-succeed form-succeed online-succeed">
+                                <div class="form-succeed__inner">
+                                    <p class="form-succeed__text">
+                                        <span>Ваш заказ принят!</span>
+                                        <span>Информация об изменении статуса заказа будет приходить Вам на
+                                            почту.</span>
+                                    </p>
+                                    <button class="form-succeed__close">Закрыть</button>
+                                </div>
+                            </div>
+                            <div class="lunch-table__phone-form phone-form">
+                                <div class="phone-form__inner">
+                                    <div class="phone-form__close">
+                                        <picture>
+                                            <source srcset="img/close.svg" type="image/webp">
+                                            <img class="phone-form__close-img" src="img/close.svg" alt="">
+                                        </picture>
+                                    </div>
+                                    <label class="phone-form__label">
+                                        <span class="phone-form__label-title">Имя</span>
+                                        <span class="phone-form__input-wrapper">
+                                            <input class="phone-form__input _req" type="text" placeholder="Иван">
+                                        </span>
+                                    </label>
+                                    <label class="phone-form__label">
+                                        <span class="phone-form__label-title">Номер телефона</span>
+                                        <span class="phone-form__input-wrapper">
+                                            <input class="phone-form__input _req _phone" type="tel" placeholder="+7( 9__ ) ___ - __ - __">
+                                        </span>
+                                    </label>
+                                    <label class="phone-form__terms-label">
+                                        <input class="phone-form__terms-input _req _terms" type="checkbox">
+                                        <span class="phone-form__terms-check"></span>
+                                        <span>Согласен с <a class="phone-form__terms-link" href="index.html">условиями сотрудничества</a> </span>
+                                    </label>
+                                    <button class="phone-form__accept btn-reverse lunch-details">Заказать</button>
+                                </div>
+                            </div>
+                            <div class="lunch-table__phone-succeed form-succeed mobile-succeed">
+                                <div class="form-succeed__inner">
+                                    <p class="form-succeed__text-wrapper">
+                                        <span class="form-succeed__text">Ваш заказ принят!</span>
+                                        <span class="form-succeed__text">Наш оператор перезвонит вам в ближайшее
+                                            время.</span>
+                                    </p>
+                                    <button class="form-succeed__close close-all">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lunch-table__table">
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch1.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch1.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Рыбный”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="1" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch2.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch2.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Мясной”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="2" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch1.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch1.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Рыбный”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="3" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch2.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch2.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Мясной”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="4" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch1.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch1.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Рыбный”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="5" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lunch-table__item lunch-item">
+                                <picture>
+                                    <source srcset="img/lunch2.webp" type="image/webp">
+                                    <img class="lunch-item__img" src="img/lunch2.jpg" alt="">
+                                </picture>
+                                <div class="lunch-item__inner">
+                                    <div class="lunch-item__about">
+                                        <h2 class="lunch-item__title">Бизнес-ланч “Мясной”</h2>
+                                        <p class="lunch-item__weight">250 г</p>
+                                        <p class="lunch-item__calories">346 ккал</p>
+                                    </div>
+                                    <div class="lunch-item__dishes-list">
+                                        <p class="lunch-item__dish">1. Бульон куриный с лапшой и яйцом</p>
+                                        <p class="lunch-item__dish">2. Рис жареный с курицей</p>
+                                        <p class="lunch-item__dish">3. Салат овощной с базиликово-медовой заправкой</p>
+                                    </div>
+                                    <div class="lunch-item__amount lunch-amount">
+                                        <div class="lunch-amount__btns">
+                                            <button class="lunch-amount__rm amount-rm">-</button>
+                                            <p class="lunch-amount__amount item-amount" data-id="6" data-amount="0">0</p>
+                                            <button class="lunch-amount__add amount-add">+</button>
+                                        </div>
+                                        <p class="lunch-amount__price">1 порция \ 189 руб</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dishes-slider lunch-slider">
+                <div class="dishes-slider__inner lunch-slider__inner">
+                    <h2 class="dishes-slider__title">Фото блюд</h2>
+                    <div class="dishes-slider__slider">
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish1.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish1.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish2.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish2.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish3.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish3.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish4.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish4.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish5.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish5.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="dishes-slider__slider-item">
+                            <picture>
+                                <source srcset="img/dish6.webp" type="image/webp">
+                                <img class="dishes-slider__slider-img" src="img/dish6.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__wrapper">
+        <div class="container">
+            <div class="footer__inner">
+                <ul class="footer__nav footer-nav">
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="index.html">Програмы питания</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="about.html">О нас</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="lunch.html">Бизнес-ланчи</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="gastro-shop.html">Gastro Shop</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="blog.html">Блог</a>
+                    </li>
+                </ul>
+                <div class="footer__logo">
+                    <picture class="footer__logo-img">
+                        <source media="(max-width: 1100px)" srcset="img/footer-logo-mobile.png">
+                        <img src="img/footer-logo.png" alt="">
+                    </picture>
+                </div>
+                <div class="footer__contacts footer-contacts">
+                    <a class="footer-contacts__link" href="#">Условия сотрудничества</a>
+                    <a class="footer-contacts__link" href="#">FAQ</a>
+                    <div class="footer__socials footer-socials">
+                        <a class="footer-socials__link" href="#">
+                            <picture class="footer-socials__link-img">
+                                <source media="(max-width:750px)" srcset="img/instagram-mobile.png">
+                                <img src="img/instagram.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="footer-socials__link" href="#">
+                            <picture class="footer-socials__link-img">
+                                <source media="(max-width:750px)" srcset="img/facebook-mobile.png">
+                                <img src="img/facebook.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="footer-socials__link" href="#">
+                            <picture class="footer-socials__link-img">
+                                <source media="(max-width:750px)" srcset="img/whatsapp-mobile.png">
+                                <img src="img/whatsapp.png" alt="">
+                            </picture>
+                        </a>
+                        <a class="footer-socials__link" href="#">
+                            <picture class="footer-socials__link-img">
+                                <source media="(max-width:750px)" srcset="img/telegram-mobile.png">
+                                <img src="img/telegram.png" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <a class="footer-contacts__phone" href="tel:+380689494919">+38 (068) 949 - 49 - 19</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
